@@ -1,0 +1,11 @@
+safe: true
+
+project:
+    name: Github Pages Template
+    tagline: A common template for ClarinData Github Pages
+    github: "https://github.com/ClarinData/clarindata.github.io"
+    navigation:
+      - name: Clarín Data
+        link: "http://clarindata.github.io"
+      - name: Clarin.com
+        link: "http://www.clarin.com"

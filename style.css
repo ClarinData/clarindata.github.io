@@ -1,0 +1,133 @@
+html {
+	height: 100%;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  color: #333;
+  background-color: #dc0606;
+  height: 100%;
+}
+
+#container {
+	width: 1216px;
+	margin: 0 auto;
+	background-color: #fff;
+	position: relative;
+	min-height: 100%;
+}
+
+#header {
+	display: inline-block;
+	position: relative;
+	margin-left: 128px;
+	height: 224px;
+	width: 960px;
+}
+
+#logo {
+	position: absolute;
+	left: 0;
+	top: 48px;
+}
+
+#slogan {
+	font-size: 41px;
+	position: absolute;
+	right: 0;
+	top: 48px;
+	padding: 0;
+	margin: 0;
+	color: #000;
+}
+
+#tagline {
+	font-size: 28px;
+	position: absolute;
+	right: 0;
+	top: 96px;
+	padding: 0;
+	margin: 0;
+	color: #333;
+}
+
+#pagenav {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	position: absolute;
+	right: 0;
+	top: 158px;
+}
+
+#pagenav li {
+	display: inline;
+}
+
+#pagenav a {
+	text-decoration: none;
+	color: #666;
+	font-weight: bold;
+	font-size: 18px;
+	padding-left: 16px;
+}
+
+#pagenav a:hover {
+	text-decoration: underline;
+}
+
+
+#content {
+	padding: 0;
+	margin-left: 128px;
+	width: 960px;
+	display: inline-block;
+	position: relative;
+}
+
+#content h1 {
+	margin: 0;
+	padding: 0;
+	padding-bottom: 16px;
+	font-size: 32px;
+	color: #000;
+}
+
+#content h2 {
+	margin: 0;
+	padding: 0;
+	padding-bottom: 16px;
+	font-size: 24px;
+}
+
+#content p {
+	margin: 0;
+	padding: 0;
+	padding-bottom: 16px;
+	line-height: 20px;
+}
+
+#content a {
+	text-decoration: none;
+	color: #29aae1;
+}
+
+#content a:hover {
+	text-decoration: underline;
+}
+
+#content pre {
+	margin: 0;
+	padding: 0;
+	border: 1px solid #eee;
+	background: #f8f8f8;
+	line-height: 22px;
+	margin-bottom: 16px;
+}
+
+#content code {
+	font-family: Consolas, Monaco, "Lucida Console", "Courier New", Courier, monospace;
+}
