@@ -1,0 +1,55 @@
+<graph version="v4.05" name="Food Loose" author="Clarin" interval="1" timeMode="asynchronous" distributionMode="fixed speed" speed="100" actions="1" dice="" skill="" strategy="" multiplayer="" width="700" height="600" numberOfRuns="100" visibleRuns="25" colorCoding="0">
+  <connection type="State Connection" start="29" end="8" label="+0.1" position="-0.26" color="Green" thickness="2">
+    <point x="160" y="80"/>
+  </connection>
+  <connection type="Resource Connection" start="3" end="29" label="0.1" position="0.25" color="Green" thickness="2"/>
+  <connection type="State Connection" start="28" end="40" label="" position="0.5" color="DarkRed" thickness="2"/>
+  <node symbol="Source" x="40" y="80" color="Green" caption="" thickness="2" captionPos="0.25" activationMode="automatic" pullMode="pull any" actions="1" resourceColor="Green"/>
+  <connection type="State Connection" start="29" end="26" label=">4" position="0.5" color="Green" thickness="2"/>
+  <connection type="Resource Connection" start="30" end="35" label="1" position="1" color="Green" thickness="2"/>
+  <connection type="Resource Connection" start="31" end="30" label="" position="0.5" color="Green" thickness="2"/>
+  <connection type="Resource Connection" start="37" end="25" label="1" position="1" color="Red" thickness="2"/>
+  <connection type="Resource Connection" start="9" end="31" label="0.5" position="-0.5" color="Green" thickness="2"/>
+  <node symbol="Source" x="118" y="146" color="Green" caption="" thickness="2" captionPos="0.25" activationMode="automatic" pullMode="pull any" actions="1" resourceColor="LightBlue"/>
+  <node symbol="Gate" x="280" y="40" color="Green" caption="" thickness="2" captionPos="0.25" activationMode="onstart" pullMode="pull any" actions="1" gateType="skill"/>
+  <connection type="State Connection" start="10" end="30" label="100%" position="0.3" color="Green" thickness="2"/>
+  <connection type="State Connection" start="16" end="17" label="70%" position="0.3" color="DarkRed" thickness="2"/>
+  <connection type="State Connection" start="31" end="11" label="-30%" position="-0.64" color="Green" thickness="2">
+    <point x="200" y="80"/>
+  </connection>
+  <connection type="State Connection" start="35" end="33" label="+0.5/3" position="0.43" color="Green" thickness="2">
+    <point x="320" y="480"/>
+  </connection>
+  <connection type="State Connection" start="38" end="37" label="70%" position="0.3" color="DarkRed" thickness="2"/>
+  <node symbol="Gate" x="36" y="256" color="DarkRed" caption="" thickness="1" captionPos="0.25" activationMode="automatic" pullMode="pull any" actions="1" gateType="skill"/>
+  <node symbol="Converter" x="106" y="254" color="DarkRed" caption="" thickness="2" captionPos="0.25" activationMode="interactive" pullMode="push any" actions="1" resourceColor="LightBlue"/>
+  <connection type="Resource Connection" start="35" end="37" label="" position="0.5" color="DarkRed" thickness="2" max="1.00"/>
+  <connection type="Resource Connection" start="31" end="17" label="" position="0.5" color="DarkRed" thickness="2" max="1.00"/>
+  <connection type="Resource Connection" start="35" end="32" label="" position="0.5" color="Blue" thickness="2"/>
+  <connection type="State Connection" start="34" end="32" label="100%" position="0.05" color="Blue" thickness="2"/>
+  <connection type="State Connection" start="33" end="40" label="" position="0.5" color="Blue" thickness="2">
+    <point x="320" y="221"/>
+  </connection>
+  <connection type="Resource Connection" start="32" end="33" label="1" position="0.61" color="LightBlue" thickness="2"/>
+  <connection type="State Connection" start="25" end="40" label="" position="0.5" color="Red" thickness="2"/>
+  <node symbol="Pool" x="205" y="505" color="DarkRed" caption="Loss on Delivery" thickness="2" captionPos="0.25" activationMode="passive" pullMode="pull any" actions="1" resourceColor="Black" startingResources="0" capacity="-1"/>
+  <node symbol="EndCondition" x="59" y="169" color="Green" caption="EndStage" thickness="2" captionPos="0.25" activationMode="passive" pullMode="pull any" actions="1"/>
+  <connection type="Resource Connection" start="17" end="28" label="1" position="1" color="Red" thickness="2"/>
+  <node symbol="Pool" x="104" y="411" color="DarkRed" caption="Loss in production" thickness="2" captionPos="0.25" activationMode="passive" pullMode="pull any" actions="1" resourceColor="Black" startingResources="0" capacity="-1"/>
+  <node symbol="Pool" x="120" y="80" color="Green" caption="PM generator" thickness="2" captionPos="0.75" activationMode="passive" pullMode="pull any" actions="1" resourceColor="Green" startingResources="0" capacity="-1"/>
+  <node symbol="Converter" x="282" y="145" color="Green" caption="Convertion" thickness="2" captionPos="0.25" activationMode="interactive" pullMode="push any" actions="1" resourceColor="LightBlue"/>
+  <node symbol="Pool" x="201" y="145" color="Green" caption="PM" thickness="2" captionPos="0.17" activationMode="passive" pullMode="pull any" actions="1" resourceColor="Black" startingResources="0" capacity="-1"/>
+  <node symbol="Converter" x="393" y="373" color="Blue" caption="Transport" thickness="2" captionPos="0.25" activationMode="interactive" pullMode="push any" actions="1" resourceColor="LightBlue"/>
+  <node symbol="Pool" x="394" y="493" color="Blue" caption="to feed people" thickness="2" captionPos="0.25" activationMode="passive" pullMode="pull any" actions="1" resourceColor="LightBlue" startingResources="0" capacity="-1"/>
+  <node symbol="Gate" x="393" y="224" color="Blue" caption="" thickness="2" captionPos="0.25" activationMode="onstart" pullMode="pull any" actions="1" gateType="skill"/>
+  <node symbol="Pool" x="277" y="368" color="Green" caption="Food" thickness="2" captionPos="0" activationMode="passive" pullMode="pull any" actions="1" resourceColor="DarkBlue" startingResources="0" capacity="-1"/>
+  <connection type="State Connection" start="35" end="21" label="-30%" position="-0.8300000000000001" color="Green" thickness="2">
+    <point x="322" y="307"/>
+  </connection>
+  <node symbol="Converter" x="206" y="400" color="DarkRed" caption="" thickness="2" captionPos="0.25" activationMode="interactive" pullMode="push any" actions="1" resourceColor="LightBlue"/>
+  <node symbol="Gate" x="204" y="334" color="DarkRed" caption="" thickness="1" captionPos="0.25" activationMode="automatic" pullMode="pull any" actions="1" gateType="skill"/>
+  <connection type="State Connection" start="31" end="35" label="+0.5/3" position="0.64" color="Green" thickness="2">
+    <point x="200" y="200"/>
+  </connection>
+  <node symbol="Chart" x="468" y="165" color="Black" caption="Loss &amp; Feed" width="184" height="217" captionPos="4" scaleX="0" scaleY="20"/>
+</graph>
