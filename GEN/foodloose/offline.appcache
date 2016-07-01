@@ -1,5 +1,5 @@
 ﻿CACHE MANIFEST
-#1467317260
+#1467338042
 data.js
 c2runtime.js
 jquery-2.1.1.min.js
@@ -18,23 +18,21 @@ images/milk_drop-sheet0.png
 images/generatedrop-sheet0.png
 images/trashcandrops-sheet0.png
 images/trashcandelivery-sheet0.png
-images/tiledbackground.png
-images/tiledbackground3.png
+images/milk2-sheet0.png
 images/milk_drop_-sheet0.png
 images/trashcandelivertylevel-sheet0.png
-images/tiledbackground2.png
 images/wastepercent.png
 images/feedpercent.png
 images/buttondairy-sheet0.png
 images/buttondairy-sheet1.png
 images/buttondelivery-sheet0.png
 images/buttondelivery-sheet1.png
-images/tiledbackground4.png
-images/tiledbackground5.png
+images/dairyfactsbackground.png
+images/levelbackground.png
 images/cursor-sheet0.png
 images/dairyselect-sheet0.png
-images/tiledbackground6.png
-images/tiledbackground7.png
+images/404background.png
+images/report.png
 images/getinvolved-sheet0.png
 media/footloose_8-bit.m4a
 media/footloose_8-bit.ogg
